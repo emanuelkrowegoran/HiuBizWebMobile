@@ -1,6 +1,6 @@
 'use strict';
 
-$(window).on('load', function () {
+$(window).on('load', function() {
     var body = $('body');
     switch ($('body').attr('data-page')) {
         case "homepage":
@@ -19,7 +19,7 @@ $(window).on('load', function () {
                 },
             });
 
-            $('#more-expand-btn').on('click', function () {
+            $('#more-expand-btn').on('click', function() {
                 $('#more-expand').addClass("active");
                 $(this).addClass("active");
             });
@@ -48,7 +48,7 @@ $(window).on('load', function () {
                 },
             });
 
-            $('#more-expand-btn').on('click', function () {
+            $('#more-expand-btn').on('click', function() {
                 $('#more-expand').addClass("active");
                 $(this).addClass("active");
             });
@@ -178,7 +178,7 @@ $(window).on('load', function () {
                 pagination: 'false'
             });
 
-            $('#coplink').on('click', function () {
+            $('#coplink').on('click', function() {
                 $('#referallink').select();
                 $('#successmessage').removeClass('d-none').fadeIn();
                 document.execCommand("copy");
@@ -282,13 +282,13 @@ $(window).on('load', function () {
 
             break;
         case "tooltips":
-            $(function () {
+            $(function() {
                 $('[data-toggle="tooltip"]').tooltip()
             });
             break;
         case "thankyou":
-            setTimeout(function () {
-                window.location.replace("index.html");
+            setTimeout(function() {
+                window.location.replace("Home.html");
             }, 3500)
             break;
         case "giftcards":
