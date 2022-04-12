@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="generator" content="">
-    <title>Tournament - Online game tournament info</title>
+    <title>Tournament Detail - Online game tournament info</title>
 
     <!-- manifest meta -->
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -77,7 +77,7 @@
                     <p class="text-default-secondary">Dompet saya</p>
                 </div>
                 <div class="col-auto">
-                    <button class="btn btn-default btn-40 rounded-circle" data-toggle="modal" href="topup.html"><i class="material-icons">add</i></button>
+                    <button class="btn btn-default btn-40 rounded-circle" data-toggle="modal" data-target="#addmoney"><i class="material-icons">add</i></button>
                 </div>
             </div>
 
@@ -91,7 +91,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="tournament.html">
+                    <a class="nav-link" href="#">
                         <div>
                             <span class="material-icons icon">sports_esports</span> Tournament Saya
                         </div>
@@ -99,7 +99,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="game.html">
+                    <a class="nav-link" href="#">
                         <div>
                             <span class="material-icons icon">gamepad</span> Game Saya
                         </div>
@@ -107,7 +107,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="team.html">
+                    <a class="nav-link" href="#">
                         <div>
                             <span class="material-icons icon">sports_kabaddi</span> Tim Saya
                         </div>
@@ -131,7 +131,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="htopup.html">
+                    <a class="nav-link" href="#">
                         <div>
                             <span class="material-icons icon">history</span> Histori Topup
                         </div>
@@ -161,21 +161,16 @@
         <header class="header">
             <div class="row">
                 <div class="col-auto px-0">
-                    <button class="menu-btn btn btn-40 btn-link" type="button">
-                <span class="material-icons">menu</span>
-            </button>
+                    <button class="menu-btn btn btn-40 btn-link back-btn" type="button">
+                        <span class="material-icons">keyboard_arrow_left</span>
+                    </button>
                 </div>
                 <div class="text-left col align-self-center">
                     <a class="navbar-brand" href="#">
-                        <h5 class="mb-0">Tournament</h5>
+                        <h5 class="mb-0">Detail Tournament</h5>
                     </a>
                 </div>
-                <div class="ml-auto col-auto pl-0">
-
-                    <a href="notification.html" class="menu-btn btn btn-40 btn-link">
-                        <span class="material-icons">notifications_none</span>
-                        <span class="counter"></span>
-                    </a>
+                <div class="ml-auto col-auto">
                     <a href="profile.html" class="avatar avatar-30 shadow-sm rounded-circle ml-2">
                         <figure class="m-0 background">
                             <img src="img/user1.png" alt="">
@@ -188,79 +183,48 @@
         <!-- page content start -->
 
         <div class="main-container">
-            <div class="container mb-4 px-0">
-                <!-- Swiper -->
-                <div class="swiper-container offerslide2tab1 text-center">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="card overflow-hidden">
-                                <div class="background">
-                                    <img src="https://www.hiu.biz/public/website/images/esports/footer-bg.png" alt="">
+            <div class="container mb-4 py-3">
+                <div class="row">
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card border-0 mb-4 overflow-hidden">
+                            <div class="card-body h-150 position-relative">
+                                <div class="row text-center">
+                                    <div class="bottom-left" style="margin: 10px 10px;">
+                                        <button class="btn btn-sm btn-default rounded"><span class="material-icons icon">sports_esports</span>Game Belum Terhubung</button>
+                                    </div>
                                 </div>
-                                <div class="card-body py-4 text-white">
-                                    <a href="" class="btn btn-sm btn-default rounded mt-3">Tournament</a>
-                                </div>
+                                <a href="#" class="background">
+                                    <img src="https://www.hiu.biz/public/asset/match/1646893290-mobile-legend-tournament-maret.webp" alt="">
+                                </a>
                             </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="card overflow-hidden">
-                                <div class="background">
-                                    <img src="https://www.hiu.biz/public/website/images/esports/footer-bg.png" alt="">
-                                </div>
-                                <div class="card-body py-4 text-white">
-                                    <a href="" class="btn btn-sm btn-default rounded mt-3">Pertandingan Hari Ini</a>
-                                </div>
+                            <div class="card-body ">
+                                <a href="#">
+                                    <p class="mb-0">Mobile Legend Tournament Maret</p>
+                                </a>
                             </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="card overflow-hidden">
-                                <div class="background">
-                                    <img src="https://www.hiu.biz/public/website/images/esports/footer-bg.png" alt="">
+                            <div class="card-footer mb-4 ">
+                                <div class="row ">
+                                    <div class="col ">
+                                        <p class="mb-0"><small class="text-secondary"> Pendaftaran : 50 Koin ( <span class="material-icons icon">diamond</span> )</small></p>
+                                        <p class="mb-0"><span class="material-icons icon">event</span><small class="text-secondary"> Tanggal : 10-03-2022</small></p>
+                                    </div>
                                 </div>
-                                <div class="card-body py-4 text-white">
-                                    <a href="" class="btn btn-sm btn-default rounded mt-3">Hasil Terakhir</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="card overflow-hidden">
-                                <div class="background">
-                                    <img src="https://www.hiu.biz/public/website/images/esports/footer-bg.png" alt="">
-                                </div>
-                                <div class="card-body py-4 text-white">
-                                    <a href="" class="btn btn-sm btn-default rounded mt-3">Yang Akan Datang</a>
-                                </div>
+
                             </div>
                         </div>
                     </div>
-                    <!-- Add Pagination -->
-                    <div class="swiper-pagination white-pagination text-left mb-3"></div>
                 </div>
-            </div>
-            <div class="container mb-4 py-3">
                 <!-- Swiper -->
                 <div class="swiper-container categories2tab1 text-center mb-4">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <button class="btn btn-sm btn-default active rounded">Semua Tournamen</button>
+                            <button class="btn btn-sm btn-default active rounded">Deskripsi Lengkap</button>
                         </div>
                         <div class="swiper-slide">
-                            <button class="btn btn-sm btn-outline-default rounded">Call Of Duty Mobile</button>
+                            <button class="btn btn-sm btn-outline-default rounded">Informasi</button>
                         </div>
                         <div class="swiper-slide">
-                            <button class="btn btn-sm btn-outline-default rounded">Valorant</button>
-                        </div>
-                        <div class="swiper-slide">
-                            <button class="btn btn-sm btn-outline-default rounded">Free Fire</button>
-                        </div>
-                        <div class="swiper-slide">
-                            <button class="btn btn-sm btn-outline-default rounded">Dota 2</button>
-                        </div>
-                        <div class="swiper-slide">
-                            <button class="btn btn-sm btn-outline-default rounded">PUBGM</button>
-                        </div>
-                        <div class="swiper-slide">
-                            <button class="btn btn-sm btn-outline-default rounded">Mobile Legends</button>
+                            <button class="btn btn-sm btn-outline-default rounded">Streaming</button>
                         </div>
                     </div>
                     <!-- Add Pagination -->
@@ -270,73 +234,39 @@
                 <div class="row">
                     <div class="col-12 col-md-4 col-lg-3">
                         <div class="card border-0 mb-4 overflow-hidden">
-                            <div class="card-body h-150 position-relative">
-                                <div class="bottom-left m-2">
-                                    <button class="btn btn-sm btn-default rounded"><span class="material-icons icon">sports_esports</span>Mobile Legend</button>
-                                </div>
-                                <a href="tournament-detail.html" class="background">
-                                    <img src="https://www.hiu.biz/public/asset/match/1646893290-mobile-legend-tournament-maret.webp" alt="">
-                                </a>
-                            </div>
                             <div class="card-body ">
-                                <p class="mb-0"><small class="text-secondary"><span class="material-icons icon">account_balance_wallet</span>Berbayar</small></p>
-                                <a href="tournament-detail.html">
-                                    <p class="mb-0">Mobile Legend Tournament Maret</p>
+                                <a href="#">
+                                    <h5 class="mb-0">Detail Tournament</h5>
                                 </a>
                             </div>
                             <div class="card-footer mb-4 ">
                                 <div class="row ">
                                     <div class="col ">
-                                        <p class="mb-0"><span class="material-icons icon">event</span><small class="text-secondary"> Kamis, 10 Maret 2022</small></p>
-                                        <p class="mb-0"><span class="material-icons icon">sports_kabaddi</span><small class="text-secondary"> Squad</small></p>
-                                    </div>
-                                    <div class="col-auto align-self-center text-left ">
-                                        <p class="mb-0"><span class="material-icons icon">emoji_events</span><small class="text-secondary"> 100 Point</small></p>
-                                        <p class="mb-0"><span class="material-icons icon">sports_esports</span><small class="text-secondary">1/10 Peserta</small></p>
+                                        <p class="mb-2"><span class="material-icons icon">sports_esports</span><small class="text-secondary"> Game : MOBILE LEGENDS</small></p>
+                                        <p class="mb-2"><span class="material-icons icon">diamond</span><small class="text-secondary"> Hadiah : 100 Poin</small></p>
+                                        <p class="mb-2"><span class="material-icons icon">account_balance_wallet</span><small class="text-secondary"> Status : Berbayar</small></p>
+                                        <p class="mb-2"><span class="material-icons icon">sports_kabaddi</span><small class="text-secondary"> Pemain : Squad</small></p>
+                                        <p class="mb-2"><span class="material-icons icon">event</span><small class="text-secondary"> Tanggal Turnamen : 10-03-2022</small></p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="col-12 col-md-4 col-lg-3">
-                        <div class="card border-0 mb-4 overflow-hidden">
-                            <div class="card-body h-150 position-relative">
-                                <div class="bottom-left m-2">
-                                    <button class="btn btn-sm btn-default rounded"><span class="material-icons icon">sports_esports</span>PUBGM</button>
-                                </div>
-                                <a href="tournament-detail.html" class="background">
-                                    <img src="https://www.hiu.biz/public/asset/match/1646728012-ramadan-cup.jpg" alt="">
-                                </a>
-                            </div>
+                        <div class="card border-0 mb-2 overflow-hidden">
                             <div class="card-body ">
-                                <p class="mb-0"><small class="text-secondary"><span class="material-icons icon">account_balance_wallet</span>Gratis</small></p>
-                                <a href="tournament-detail.html">
-                                    <h5 class="mb-0">Ramadan Cup</h5>
+                                <a href="#">
+                                    <h5 class="mb-0">Deskripsi</h5>
                                 </a>
                             </div>
-                            <div class="card-footer mb-4 ">
+                            <div class="card-footer mb-2 ">
                                 <div class="row ">
                                     <div class="col ">
-                                        <p class="mb-0"><span class="material-icons icon">event</span><small class="text-secondary"> Kamis, 10 Maret 2022</small></p>
-                                        <p class="mb-0"><span class="material-icons icon">sports_kabaddi</span><small class="text-secondary"> Squad</small></p>
-                                    </div>
-                                    <div class="col-auto align-self-center text-left ">
-                                        <p class="mb-0"><span class="material-icons icon">emoji_events</span><small class="text-secondary"> 100 Point</small></p>
-                                        <p class="mb-0"><span class="material-icons icon">sports_esports</span><small class="text-secondary">1/10 Peserta</small></p>
+                                        <p class="mb-2"><small class="text-secondary"> Ini adalah Dummy Turnamen alias bukan turnamen sebenarnya, hanya untuk keperluan testing saja. Setiap Tim Wajib Mengirimkan perwakilan untuk technical meeting.
+
+                                            Jika tidak mengirimkan perwakilan kami anggap Gugur.</small></p>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-                    </div>
-
-                </div>
-
-
-                <div class="row text-center">
-                    <div class="col-6 col-md-4 col-lg-3 mx-auto">
-                        <button class="btn btn-sm btn-outline-secondary rounded">Lihat Semua</button>
                     </div>
                 </div>
             </div>
